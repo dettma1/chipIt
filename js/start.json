@@ -1,0 +1,31 @@
+var data = {
+	"sarah" : {
+	"first_name" : "Sarah",
+	"last_name" : "Bond",
+	"emergency_contact" : {
+		"first_name": "Elysa",
+		"last_name": "Bond",
+		"phone" : "7812694200"
+	}
+},
+
+"ezra" : {
+	"first_name" : "Ezra",
+	"last_name" : "Garcia",
+	"emergency_contact" : { 
+		"first_name": "Marcos",
+		"last_name": "Garcia",
+		"phone" : "8888888888"
+	}
+},
+
+"carrie" : {
+	"first_name" : "Carrie",
+	"last_name" : "Sayre",
+	"emergency_contact" : {
+		"first_name": "Katie",
+		"last_name": "Sayre",
+		"phone" : "9524561672"
+		}
+	}
+};

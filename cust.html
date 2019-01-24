@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/start.json"></script>
+</head>
+<body onload="loadInfo()">
+	<div class="row">
+		<div class="col-12">
+			<h1 class="text-center" id="ChipTitle" style="padding-top: 15px;">Patient Name</h1>
+		</div>
+	</div>
+	<!-- first name last name info -->
+	<div class="row">
+		<div class="col-lg-8" style="margin:auto; padding-top: 50px;">
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">First Name</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_first_name" placeholder="" value="" aria-label="Username" aria-describedby="basic-addon1">
+				<div class="input-group-prepend">
+		    <span class="input-group-text" style="margin-left: 15px;" id="basic-addon1">Last Name</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_last_name" placeholder="" value="" aria-label="Username" aria-describedby="basic-addon1">
+		</div>
+		</div>		
+	</div>
+	<!-- emergency contact info-->
+	<div class="row">
+		<div class="col-lg-8" style="margin:auto; padding-top: 50px;">
+			<h3 class="text-center" style="padding-bottom: 15px;"> Emergency Contact</h3>
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">First Name</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_ice_first_name" placeholder="" value"" aria-label="Username" aria-describedby="basic-addon1">
+		<div class="input-group-prepend">
+		    <span class="input-group-text" style="margin-left: 15px;" id="basic-addon1">Last Name</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_ice_last_name" placeholder="" value="" aria-label="Username" aria-describedby="basic-addon1">
+				  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">Phone Number</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_ice_phone" placeholder="" value="" aria-label="Username" aria-describedby="basic-addon1">
+		</div>
+		</div>		
+	</div>	
+	<!-- information you cannnot edit -->
+		<!--allergies-->
+		<div class="row">
+		<div class="col-lg-8" style="margin:auto; padding-top: 15px;">
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">Allergies</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_allergy" placeholder="" value="Peanuts, Gluten, Bees" aria-label="Username" aria-describedby="basic-addon1" disabled="true">
+		</div>
+		</div>		
+	</div>
+	<!-- blood type -->
+	<div class="row">
+		<div class="col-lg-8" style="margin:auto; padding-top: 15px;">
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">Blood Type</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_bloodType" placeholder="" value="O-positive" aria-label="Username" aria-describedby="basic-addon1" disabled="true">
+		</div>
+		</div>		
+	</div>
+	<!--perscriptions -->
+	<div class="row">
+		<div class="col-lg-8" style="margin:auto; padding-top: 15px;">
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="basic-addon1">Perscriptions</span>
+		  </div>
+			<input type="text" class="form-control" id="cust_perscript" placeholder="" value="20mg Trinessa" aria-label="Username" aria-describedby="basic-addon1" disabled="true">
+		</div>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<a href="index.html"><button class="btn btn-primary" style="width:75px; margin: auto; display: block;">Exit</button></a>
+		</div>
+	</div>
+	
+	
+</body>
+<footer>
+	
+</footer>
